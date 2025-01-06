@@ -1,0 +1,32 @@
+<svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background circle -->
+  <circle cx="100" cy="100" r="90" fill="#FF6B6B"/>
+  
+  <!-- Plate -->
+  <circle cx="100" cy="100" r="70" fill="white" stroke="#2D3436" stroke-width="4"/>
+  
+  <!-- Fork and spoon symbol -->
+  <g transform="translate(100,100) scale(0.8)">
+    <!-- Fork -->
+    <path d="M-20,-40 L-20,20 M-30,-40 L-30,0 M-10,-40 L-10,0 M-30,-40 L-10,-40" 
+          stroke="#2D3436" 
+          stroke-width="4" 
+          stroke-linecap="round"
+          fill="none"/>
+    
+    <!-- Spoon -->
+    <path d="M20,-40 L20,20 M10,-35 A10,10 0 0,0 30,-35 A10,10 0 0,0 10,-35" 
+          stroke="#2D3436" 
+          stroke-width="4" 
+          stroke-linecap="round"
+          fill="none"/>
+  </g>
+  
+  <!-- Steam lines -->
+  <g transform="translate(100,60)">
+    <path d="M-15,0 Q-7,-15 0,0 Q7,-15 15,0" 
+          stroke="#2D3436" 
+          stroke-width="3" 
+          fill="none"/>
+  </g>
+</svg>

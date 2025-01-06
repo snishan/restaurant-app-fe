@@ -1,0 +1,136 @@
+{
+  "orders": [
+    {
+      "id": "ORD001",
+      "customerName": "John Smith",
+      "items": [
+        {
+          "name": "Margherita Pizza",
+          "quantity": 2,
+          "price": 15.99
+        },
+        {
+          "name": "Caesar Salad",
+          "quantity": 1,
+          "price": 8.99
+        }
+      ],
+      "total": 40.97,
+      "status": "preparing",
+      "timestamp": "2024-02-28T14:30:00Z"
+    },
+    {
+      "id": "ORD002",
+      "customerName": "Emma Wilson",
+      "items": [
+        {
+          "name": "Grilled Salmon",
+          "quantity": 1,
+          "price": 24.99
+        }
+      ],
+      "total": 24.99,
+      "status": "completed",
+      "timestamp": "2024-02-28T14:15:00Z"
+    }
+  ],
+
+  "menu": [
+    {
+      "id": "MENU001",
+      "category": "Starters",
+      "items": [
+        {
+          "id": "ITEM001",
+          "name": "Bruschetta",
+          "description": "Grilled bread rubbed with garlic and topped with diced tomatoes, fresh basil, and olive oil",
+          "price": 8.99,
+          "image": "https://images.pexels.com/photos/2228580/pexels-photo-2228580.jpeg"
+        },
+        {
+          "id": "ITEM002",
+          "name": "Calamari",
+          "price": 9.99,
+          "description": "Crispy fried squid served with marinara sauce",
+          "image": "https://images.pexels.com/photos/725991/pexels-photo-725991.jpeg"
+        },
+        {
+          "id": "ITEM005",
+          "name": "Stuffed Mushrooms",
+          "description": "Mushrooms filled with cheese, garlic, and herbs",
+          "price": 10.99,
+          "image": "https://images.pexels.com/photos/262947/pexels-photo-262947.jpeg"
+        },
+        {
+          "id": "ITEM006",
+          "name": "Bruschetta with Goat Cheese",
+          "description": "Grilled bread with garlic, goat cheese, and balsamic glaze",
+          "price": 9.99,
+          "image": "https://images.pexels.com/photos/1624487/pexels-photo-1624487.jpeg"
+        },
+        {
+          "id": "ITEM007",
+          "name": "Greek Salad",
+          "description": "Cucumbers, tomatoes, olives, feta cheese, and olive oil dressing",
+          "price": 7.99,
+          "image": "https://images.pexels.com/photos/1213710/pexels-photo-1213710.jpeg"
+        },
+        {
+          "id": "ITEM008",
+          "name": "Deviled Eggs",
+          "description": "Eggs filled with a creamy mustard and mayo filling",
+          "price": 6.99,
+          "image": "https://images.pexels.com/photos/8601410/pexels-photo-8601410.jpeg"
+        }
+      ]
+    },
+    {
+      "id": "MENU002",
+      "category": "Main Courses",
+      "items": [
+        {
+          "id": "ITEM003",
+          "name": "Grilled Salmon",
+          "description": "Fresh Atlantic salmon with seasonal vegetables",
+          "price": 24.99,
+          "image": "https://images.pexels.com/photos/3763847/pexels-photo-3763847.jpeg"
+        },
+        {
+          "id": "ITEM004",
+          "name": "Margherita Pizza",
+          "description": "Fresh mozzarella, tomatoes, and basil",
+          "price": 15.99,
+          "image": "https://images.pexels.com/photos/1146760/pexels-photo-1146760.jpeg"
+        },
+        {
+          "id": "ITEM009",
+          "name": "Ribeye Steak",
+          "description": "Juicy ribeye steak with mashed potatoes and asparagus",
+          "price": 29.99,
+          "image": "https://images.pexels.com/photos/1639561/pexels-photo-1639561.jpeg"
+        },
+        {
+          "id": "ITEM010",
+          "name": "Chicken Alfredo",
+          "description": "Creamy Alfredo sauce with grilled chicken and fettuccine",
+          "price": 18.99,
+          "image": "https://images.pexels.com/photos/1437267/pexels-photo-1437267.jpeg"
+        },
+        {
+          "id": "ITEM011",
+          "name": "Beef Tacos",
+          "description": "Soft tacos filled with seasoned beef, cheese, and salsa",
+          "price": 12.99,
+          "image": "https://images.pexels.com/photos/2092507/pexels-photo-2092507.jpeg"
+        },
+        {
+          "id": "ITEM012",
+          "name": "Pasta Primavera",
+          "description": "Pasta with mixed vegetables and garlic butter sauce",
+          "price": 14.99,
+          "image": "https://images.pexels.com/photos/1527603/pexels-photo-1527603.jpeg"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,59 @@
+{
+    "cards": [
+      {
+        "title": "Total Revenue",
+        "icon": "DollarSign",
+        "amount": "$15,231.89",
+        "percentageChange": "+20.1% from last month"
+      },
+      {
+        "title": "New Customers",
+        "icon": "Users",
+        "amount": "+2350",
+        "percentageChange": "+180.1% from last month"
+      },
+      {
+        "title": "Active Orders",
+        "icon": "ChefHat",
+        "amount": "12",
+        "percentageChange": "+19% from last hour"
+      },
+      {
+        "title": "Reservations Today",
+        "icon": "CalendarCheck",
+        "amount": "24",
+        "percentageChange": "+7% from yesterday"
+      }
+    ],
+    "charts": {
+      "revenue": {
+        "labels": ["Jan", "Feb", "Mar", "Apr", "May", "Jun"],
+        "data": [12000, 15000, 13500, 17000, 14500, 16000]
+      },
+      "newCustomers": {
+        "labels": ["Jan", "Feb", "Mar", "Apr", "May", "Jun"],
+        "data": [120, 200, 180, 220, 250, 230]
+      }
+    },
+    "table": [
+      {
+        "orderId": "ORD12345",
+        "customer": "John Doe",
+        "amount": "$120.00",
+        "status": "Completed"
+      },
+      {
+        "orderId": "ORD12346",
+        "customer": "Jane Smith",
+        "amount": "$85.50",
+        "status": "Pending"
+      },
+      {
+        "orderId": "ORD12347",
+        "customer": "Michael Lee",
+        "amount": "$245.75",
+        "status": "Completed"
+      }
+    ]
+  }
+  
