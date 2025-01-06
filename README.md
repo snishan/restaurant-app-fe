@@ -1,6 +1,7 @@
 # Restaurant Management App
 
 A modern, responsive restaurant management application built with Next.js 14, MobX, and Tailwind CSS. Experience seamless menu management, order tracking, and reservation handling with our sleek interface.
+<img width="948" alt="restaurant-app" src="https://github.com/user-attachments/assets/a809ef68-1bcb-453c-bebe-fa8f8cb47e3d" />
 
 ## 🌟 Features
 
