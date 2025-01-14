@@ -40,7 +40,7 @@ A modern, responsive restaurant management application built with Next.js 14, Mo
 
 1. Clone and install dependencies:
 ```bash
-git clone [<repository-url>](https://github.com/snishan/restaurant-app-fe.git)
+git clone [<https://github.com/snishan/restaurant-app-fe.git>]
 cd restaurant-app
 npm install
 ```
